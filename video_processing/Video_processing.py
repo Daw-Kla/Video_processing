@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read video file
-cap = cv2.VideoCapture('OKNO_4.avi')
+cap = cv2.VideoCapture('Video.avi')
 
 # declare var's
 shape_detected = False

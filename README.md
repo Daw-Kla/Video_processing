@@ -27,9 +27,9 @@ pip3 install -r requirements.txt
 
 ## Program descripction
 
-The captured video fle is OKNO_4.avi
+The captured video file is Video.avi in [video_processing](/video_processing/)
 
-First of all I declared upper and lower [limits](https://www.rapidtables.com/convert/color/rgb-to-hsv.html) for each of detected color:
+In [Video_processing.py](/video_processing/Video_processing.py) first of all I declared upper and lower [limits](https://www.rapidtables.com/convert/color/rgb-to-hsv.html) for each of detected color:
 
 ```
 lower_pink = np.array([150,50,50])
