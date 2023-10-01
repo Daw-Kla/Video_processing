@@ -12,6 +12,8 @@ Project is created with:
 * Python 3.11
 * numpy library version: 1.24.1
 * OpenCV library version: 4.7.0
+* scikit-image
+* seaborn
 
 ## First of all install requred libraries by runing:
 
@@ -94,3 +96,60 @@ In Img_processing there are shown some functionalities of OpenCV library such as
 * selecting multiple frames from a video
 * detecting contours of shapes in image
 * show hierarhy of shapes in image
+
+In the same directory there is also folder [Excercises](/img_processing/Excercises/) wherein there are Jupyter notebook files witch practical excersices helping in better understanding images processing.
+
+# Directory tree:
+```
+Video_processing
+├─ img_processing
+│  ├─ Excercises
+│  │  ├─ Ex_1.ipynb
+│  │  ├─ Ex_2.ipynb
+│  │  ├─ Ex_3.ipynb
+│  │  ├─ Ex_4.ipynb
+│  │  └─ images
+│  │     ├─ airport.png
+│  │     ├─ baboon.jpg
+│  │     ├─ blob.jpg
+│  │     ├─ calc.png
+│  │     ├─ cube.bmp
+│  │     ├─ dowels.png
+│  │     ├─ kodim01.png
+│  │     ├─ kodim03.png
+│  │     ├─ kodim21.png
+│  │     ├─ kodim23.png
+│  │     ├─ lena.png
+│  │     ├─ moon.png
+│  │     ├─ obj.png
+│  │     ├─ rice.tif
+│  │     ├─ rose.png
+│  │     ├─ rtg.tif
+│  │     └─ tire.tif
+│  ├─ frame_12_bw.png
+│  ├─ frame_12_color.png
+│  ├─ frame_12_contour.png
+│  ├─ frame_185_bw.png
+│  ├─ frame_185_color.png
+│  ├─ frame_185_contour.png
+│  ├─ frame_25_bw.png
+│  ├─ frame_25_color.png
+│  ├─ frame_25_contour.png
+│  ├─ Img_processing.ipynb
+│  ├─ PC_camera_use.ipynb
+│  └─ Video.mp4
+├─ LICENSE
+├─ README.md
+├─ requirements.txt
+├─ static
+│  ├─ image-1.png
+│  ├─ image-2.png
+│  ├─ image-3.png
+│  ├─ image-4.png
+│  └─ image.png
+└─ video_processing
+   ├─ Video.avi
+   ├─ Video_processing.ipynb
+   └─ Video_processing.py
+
+```
